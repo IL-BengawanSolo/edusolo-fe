@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+
+@layer base {
+    body {
+        font-family: var(--font-montserrat);
+    }
+}
 
 @theme {
     --color-pr-blue-50: #ecfaff;
@@ -27,6 +35,16 @@
     --color-sc-yellow-800: #943f0c;
     --color-sc-yellow-900: #7a340d;
     --color-sc-yellow-950: #461a02;
+
+    --color-neutral-black: #0A0E32;
+    --color-neutral-black2: #1B2559;
+    --color-neutral-dark-grey: #7F8096;
+    --color-neutral-grey: #A3AED0;
+    --color-neutral-light-grey: #E9EDF7;
+    --color-neutral-bg: #F5F7FD;
+    --color-neutral-light-bg: #FAFAFF;
+
+    --font-montserrat: "Montserrat", sans-serif;
 }
 
 @theme inline {
