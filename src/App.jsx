@@ -1,17 +1,19 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import DestinationCard from "./components/DestinationCard.jsx";
+import SearchBar from "./components/SearchBar.jsx";
 
 function App() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center min-h-svh gap-1">
+      <div className="flex flex-col items-center justify-center gap-5">
+      <SearchBar />
         <Button size="custom">Custom Default</Button>
         <Button size="custom" variant="lite">
           Custom Lite
         </Button>
-        <DestinationCard variant="col" /> 
-        <DestinationCard variant="row" /> 
+        <DestinationCard variant="col" />
+        <DestinationCard variant="row" />
       </div>
     </>
   );
