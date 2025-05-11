@@ -13,7 +13,7 @@ const SearchBar = () => {
         <Input
           type="text"
           placeholder="Cari destinasi wisata..."
-          className="pl-24 rounded-lg h-16 pr-20 placeholder:text-neutral-grey placeholder:font-medium placeholder:text-lg placeholder:italic text-neutral-dark-grey !font-medium !text-lg"
+          className="pl-24 rounded-lg h-16 pr-20 bg-white placeholder:text-neutral-grey border-none placeholder:font-medium placeholder:text-lg placeholder:italic text-neutral-dark-grey !font-medium !text-lg"
         />
       </div>
       <Button

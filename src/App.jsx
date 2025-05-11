@@ -6,7 +6,7 @@ import SearchBar from "./components/SearchBar.jsx";
 function App() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center gap-5">
+      <div className="flex flex-col bg-neutral-bg items-center justify-center gap-5">
       <SearchBar />
         <Button size="custom">Custom Default</Button>
         <Button size="custom" variant="lite">

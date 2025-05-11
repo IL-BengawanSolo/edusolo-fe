@@ -8,10 +8,10 @@ const DestinationCard = ({ variant = "col" }) => {
     variant === "col"
       ? "w-[344px] h-[344px] rounded-[30px]"
       : "w-[212px] h-[212px] rounded-[16px]";
-  const cardStyle = variant === "col" ? "flex-col p-4 max-w-[344px]" : "flex-row p-2.5 min-w-lg w-[550px] max-w-[550px]";
+  const cardStyle = variant === "col" ? "flex-col p-4 max-w-[376px] " : "flex-row p-2.5 min-w-lg w-[550px] max-w-[550px]";
   return (
     <div
-      className={`flex border-2 border-gray-300 rounded-3xl ${cardStyle}`}
+      className={`flex bg-white rounded-3xl max-w-1 ${cardStyle}`}
     >
       <img
         src="/src/assets/kampung-batik-laweyan.jpeg"
