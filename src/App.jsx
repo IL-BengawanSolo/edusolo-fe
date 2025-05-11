@@ -1,15 +1,6 @@
 import React from "react";
-// import Button from "./components/Button.jsx";
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import DestinationCard from "./components/Destinationcard.jsx";
+import DestinationCard from "./components/DestinationCard.jsx";
 
 function App() {
   return (
@@ -19,7 +10,8 @@ function App() {
         <Button size="custom" variant="lite">
           Custom Lite
         </Button>
-        <DestinationCard /> 
+        <DestinationCard variant="col" /> 
+        <DestinationCard variant="row" /> 
       </div>
     </>
   );
