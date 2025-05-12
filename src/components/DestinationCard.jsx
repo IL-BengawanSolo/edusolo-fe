@@ -14,7 +14,7 @@ const DestinationCard = ({ variant = "col" }) => {
       className={`flex bg-white rounded-3xl max-w-1 ${cardStyle}`}
     >
       <img
-        src="/src/assets/kampung-batik-laweyan.jpeg"
+        src="/src/assets/images/kampung-batik-laweyan.jpeg"
         alt=""
         className={imgStyle}
       />
