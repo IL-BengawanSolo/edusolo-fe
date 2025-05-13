@@ -5,7 +5,7 @@ import { Search } from "react-iconly";
 
 const SearchBar = () => {
   return (
-    <div className="relative mx-auto mt-10 flex w-full max-w-10/12 items-center">
+    <div className="relative mx-auto flex w-full items-center">
       <Search className="text-neutral-grey absolute left-10" />
       <Input
         type="text"
