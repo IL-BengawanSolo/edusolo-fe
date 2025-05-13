@@ -2,7 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Location } from "react-iconly";
 
 const DestinationCardContent = ({ variant = "col" }) => {
-  const titleSize = variant === "col" ? "text-3xl" : "text-2xl";
+  const titleSize = variant === "col" ? "text-2xl" : "text-xl";
   const textSize = variant === "col" ? "text-xl" : "text-base";
   const badgeSize = variant === "col" ? "text-lg" : "text-sm";
 
