@@ -12,6 +12,7 @@ import SetupProfile from "./pages/SetupProfile.jsx";
 import Recommendation from "./pages/Recommendation.jsx";
 import Home from "./pages/Home.jsx";
 import DestinationDetail from "./pages/DestinationDetail.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
         <Route path="login" element={<LoginPage />} />
         <Route path="setup-profile" element={<SetupProfile />} />
       </Route>
+
+      {/* Admin Dashboard Route */}
+      <Route path="admin-dashboard" element={<Dashboard />} />
     </Routes>
   );
 }
